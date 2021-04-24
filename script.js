@@ -90,14 +90,6 @@ document.addEventListener('keydown', (e) => {
         }
     })
 
-// Generate Random Palette - Spacebar
-document.addEventListener('keydown', (e) => {
-    const spacebarDown = e.key
-
-    if(spacebarDown == ' ') {
-        generateRandomColour()
-        }
-})
 
 // Generate Random Palette - Btn
 generateBtn.addEventListener('click', () => {
