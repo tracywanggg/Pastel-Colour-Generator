@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta charset="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css" />
+        <title>Color Palette Generator</title>
+        </head>
+         <body>
+            <div class = "toprectangle">
+                <div class ="bullets">
+                <h1>&bull; &bull; &bull;</h1>
+                </div>
+            </div>
+
+            <div class = "section1">
+                 <img src="right.png" class="rightimg">
+                 <img src="left.png" class="leftimg">
+                 <img src="title.png" class="title">
+                 <img src="loading.gif" class="gif">
+                </div>
+
+                 <section id="colour_palette">
+                    <div class="container">
+                      <div class="clicked-colour">
+                        <h5>
+                          Colour <strong class="hex-colour"></strong> copied to your clipboard
+                        </h5>
+                      </div>
+                      <div class="colour-header">
+                      </div>
+                      <div class="colour-palette-showcase">
+                        <div class="colour-value">
+                          <div class="colour"></div>
+                          <p class="colour-value-text"></p>
+                        </div>
+                        <div class="colour-value">
+                          <div class="colour"></div>
+                          <p class="colour-value-text"></p>
+                        </div>
+                        <div class="colour-value">
+                          <div class="colour"></div>
+                          <p class="colour-value-text"></p>
+                        </div>
+                        <div class="colour-value">
+                          <div class="colour"></div>
+                          <p class="colour-value-text"></p>
+                        </div>
+                        <div class="colour-value">
+                          <div class="colour"></div>
+                          <p class="colour-value-text"></p>
+                        </div>
+                      </div>
+                      <div class="generate-colour">
+                        <button class="btn" id="copy-button">Generate palette</button>
+            
+                      </div>
+                      <div class="instructions">
+                        <p>
+                          click to copy the colour or press &quot;C&quot; to copy the palette
+                        </p>
+                      </div>
+                    </div>
+                  </section>             
+
+         </body>
+         <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"
+         integrity="sha512-hDWGyh+Iy4Mr9AHOzUP2+Y0iVPn/BwxxaoSleEjH/i1o4EVTF/sh0/A1Syii8PWOae+uPr+T/KHwynoebSuAhw=="
+         crossorigin="anonymous"
+       ></script>
+       <script src="script.js"></script>
+
+         </html>
